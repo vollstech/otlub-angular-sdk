@@ -1,0 +1,60 @@
+{
+  "name": "@otlub/angular-sdk",
+  "version": "1.0.0",
+  "description": "OTLUB Angular SDK for easy integration with OTLUB API services",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "otlub",
+    "angular",
+    "sdk",
+    "api",
+    "microservices",
+    "typescript"
+  ],
+  "author": "OTLUB Team <support@otlub.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snapone-studio/otlub-angular-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snapone-studio/otlub-angular-sdk/issues"
+  },
+  "homepage": "https://github.com/snapone-studio/otlub-angular-sdk#readme",
+  "dependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/http": "^17.0.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "typescript": "^5.0.0",
+    "karma": "^6.0.0",
+    "jasmine": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=12.0.0",
+    "@angular/core": ">=12.0.0",
+    "rxjs": ">=6.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
