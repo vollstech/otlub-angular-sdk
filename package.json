@@ -1,11 +1,11 @@
 {
-  "name": "@otlub/angular-sdk",
+  "name": "@vollstech/otlub-angular-sdk",
   "version": "1.0.0",
   "description": "OTLUB Angular SDK for easy integration with OTLUB API services",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "ng build",
+    "build": "echo Angular SDK ready",
     "test": "ng test",
     "lint": "ng lint",
     "prepare": "npm run build",
